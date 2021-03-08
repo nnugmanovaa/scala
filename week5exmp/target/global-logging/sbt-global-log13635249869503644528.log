@@ -1,0 +1,68 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (JetBrains s.r.o. Java 11.0.9.1)
+[debug] Load.defaultLoad until apply took 955.6722ms
+[debug]           Load.loadUnit: plugins took 187.486ms
+[debug]           Load.loadUnit: defsScala took 0.4832ms
+[debug] [Loading] Scanning directory C:\Users\user\Desktop\scala\week5exmp\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\user\Desktop\scala\week5exmp\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.9361 ms
+[debug]               Load.resolveProject(week5exmp-build) took 91.2431ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id week5exmp-build, base: C:\Users\user\Desktop\scala\week5exmp\project, plugins: List(<none>))) took 217.619ms
+[debug] [Loading] Done in C:\Users\user\Desktop\scala\week5exmp\project, returning: (week5exmp-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 264.4784ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3808ms
+[debug]         Load.loadUnit(file:/C:/Users/user/Desktop/scala/week5exmp/project/, ...) took 462.3508ms
+[debug]       Load.apply: load took 1091.7567ms
+[debug]       Load.apply: resolveProjects took 11.8971ms
+[debug]       Load.apply: finalTransforms took 396.1425ms
+[debug]       Load.apply: config.delegates took 31.5519ms
+[debug]       Load.apply: Def.make(settings)... took 1307.6905ms
+[debug]       Load.apply: structureIndex took 223.8696ms
+[debug]       Load.apply: mkStreams took 3.8617ms
+[info] loading project definition from C:\Users\user\Desktop\scala\week5exmp\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5239.4817ms
+[debug]     Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\user\Desktop\scala\week5exmp
+[debug]       Load.loadUnit: mkEval took 38.4798ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\user\Desktop\scala\week5exmp, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.3467 ms
+[info] loading settings for project week5exmp from build.sbt ...
+[debug]         Load.resolveProject(week5exmp) took 67.2643ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id week5exmp, base: C:\Users\user\Desktop\scala\week5exmp, plugins: List(<none>))) took 71.4046ms
+[debug] [Loading] Done in C:\Users\user\Desktop\scala\week5exmp, returning: (week5exmp)
+[debug]     Load.loadUnit: loadedProjectsRaw took 444.234ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.6192ms
+[debug]   Load.loadUnit(file:/C:/Users/user/Desktop/scala/week5exmp/, ...) took 5695.5685ms
+[debug] Load.apply: load took 5734.24ms
+[debug] Load.apply: resolveProjects took 0.1831ms
+[debug] Load.apply: finalTransforms took 13.5796ms
+[debug] Load.apply: config.delegates took 0.5276ms
+[debug] Load.apply: Def.make(settings)... took 368.2418ms
+[debug] Load.apply: structureIndex took 79.6256ms
+[debug] Load.apply: mkStreams took 0.0031ms
+[info] set current project to week5exmp (in build file:/C:/Users/user/Desktop/scala/week5exmp/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\user\Desktop\scala\week5exmp\target\scala-2.13\classes ...
+[info] done compiling

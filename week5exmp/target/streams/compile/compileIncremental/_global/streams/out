@@ -1,0 +1,47 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 15 products, 4 sources, 3 libraries
+[debug] current source = Set(${BASE}/src/main/scala/HelloWorld.scala, ${BASE}/src/main/scala/HelloWorldBot.scala, ${BASE}/src/main/scala/HelloWorldMain.scala, ${BASE}/src/main/scala/MainApp.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/MainApp.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/MainApp$.class, ${BASE}/target/scala-2.13/classes/MainApp.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/MainApp.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/MainApp$.class, ${BASE}/target/scala-2.13/classes/MainApp.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(MainApp)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/MainApp.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(MainApp)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/MainApp.scala)
+[debug] Initial set of included nodes: MainApp
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\user\Desktop\scala\week5exmp\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.4:compile for Scala 2.13.5
+[debug] [zinc] Running cached compiler 774965e8 for Scala compiler version 2.13.5
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar
+[debug] 	-classpath
+[debug] 	C:\Users\user\Desktop\scala\week5exmp\target\scala-2.13\classes;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.13\akka-actor-typed_2.13-2.6.13.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.13\akka-actor_2.13-2.6.13.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.13\akka-slf4j_2.13-2.6.13.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\user\Desktop\scala\week5exmp\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0.jar
+[debug] Invalidating (transitively) by inheritance from MainApp...
+[debug] Initial set of included nodes: MainApp
+[debug] Invalidated by transitive inheritance dependency: Set(MainApp)
+[debug] Change NamesChange(MainApp,ModifiedNames(changes = UsedName(f1,[Default]), UsedName(log,[Implicit]), UsedName(f2,[Default]), UsedName(system,[Default]))) invalidates 1 classes due to The MainApp has the following implicit definitions changed:
+[debug] 	UsedName(log,[Implicit]).
+[debug]   > by transitive inheritance: Set(MainApp)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 3.3708054 s
+[info] done compiling
