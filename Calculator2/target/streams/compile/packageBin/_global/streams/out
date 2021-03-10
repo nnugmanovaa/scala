@@ -1,0 +1,45 @@
+[debug] Packaging C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\calculator2_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\application.conf
+[debug] 	CalculatorConductor$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor$.class
+[debug] 	CalculatorConductor$Calculate$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor$Calculate$.class
+[debug] 	CalculatorConductor$Calculate.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor$Calculate.class
+[debug] 	CalculatorConductor$Calculated$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor$Calculated$.class
+[debug] 	CalculatorConductor$Calculated.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor$Calculated.class
+[debug] 	CalculatorConductor.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorConductor.class
+[debug] 	CalculatorLogic$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorLogic$.class
+[debug] 	CalculatorLogic.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorLogic.class
+[debug] 	CalculatorMain$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorMain$.class
+[debug] 	CalculatorMain$StartCalculate$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorMain$StartCalculate$.class
+[debug] 	CalculatorMain$StartCalculate.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorMain$StartCalculate.class
+[debug] 	CalculatorMain.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\CalculatorMain.class
+[debug] 	logback.xml
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\logback.xml
+[debug] 	Main$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Main.class
+[debug] 	Operation$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Operation$.class
+[debug] 	Operation.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Operation.class
+[debug] 	Utils$Constants$.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Utils$Constants$.class
+[debug] 	Utils.class
+[debug] 	  C:\Users\user\Desktop\scala\Calculator2\target\scala-2.13\classes\Utils.class
+[debug] Done packaging.

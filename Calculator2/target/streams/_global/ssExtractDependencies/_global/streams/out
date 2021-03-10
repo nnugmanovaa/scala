@@ -1,0 +1,71 @@
+[error] lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+[error] https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar: download error: Caught java.nio.file.FileSystemException: C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error]  (C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error] ) while downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[error] 
+[error] 	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$9(Artifacts.scala:346)
+[error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1(Task.scala:14)
+[error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$extension$1$adapted(Task.scala:14)
+[error] 	at lmcoursier.internal.shaded.coursier.util.Task$.wrap(Task.scala:84)
+[error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)
+[error] 	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+[error] 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+[error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$DownloadError: download error: Caught java.nio.file.FileSystemException: C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error]  (C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error] ) while downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:1008)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1022)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:321)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$55(FileCache.scala:506)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:72)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:98)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$33(FileCache.scala:507)
+[error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[error] 	at scala.util.Success.map(Try.scala:213)
+[error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] Caused by: java.nio.file.FileSystemException: C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error] 
+[error] 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+[error] 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+[error] 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:309)
+[error] 	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:292)
+[error] 	at java.base/java.nio.file.Files.move(Files.java:1421)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$47(FileCache.scala:411)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$$anon$1.call(CacheLocks.scala:21)
+[error] 	at lmcoursier.internal.shaded.coursier.paths.CachePath.withStructureLock(CachePath.java:147)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withStructureLock(CacheLocks.scala:21)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$34(FileCache.scala:409)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.$anonfun$downloading$1(FileCache.scala:988)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withUrlLock(CacheLocks.scala:116)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.helper$2(FileCache.scala:988)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$downloading(FileCache.scala:1022)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.doDownload$1(FileCache.scala:321)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$55(FileCache.scala:506)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.loop$1(CacheLocks.scala:72)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.CacheLocks$.withLockOr(CacheLocks.scala:98)
+[error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$download$33(FileCache.scala:507)
+[error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[error] 	at scala.util.Success.map(Try.scala:213)
+[error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (ssExtractDependencies) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:
+[error] https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar: download error: Caught java.nio.file.FileSystemException: C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error]  (C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\.logback-classic-1.2.3.jar.part -> C:\Users\user\Desktop\scala\Calculator2\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar: Процесс не может получить доступ к файлу, так как этот файл занят другим процессом.
+[error] ) while downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
